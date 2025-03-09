@@ -1,12 +1,11 @@
+package DFSBFS;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.nio.Buffer;
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.StringTokenizer;
 
-public class Main {
+public class 음료수얼려먹기 {
     static int N,M,ans;
     static int[][] map;
     static int[] dx = {1,0,-1,0};
